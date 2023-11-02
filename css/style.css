@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Playpen Sans', cursive;
+}
+
+:root {
+    --sec-color: rgb(3, 243, 191);
+    --bg-color: black;
+    --btn: rgb(12, 12, 12);
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+.navbar {
+    display: flex;
+    background-color: var(--bg-color);
+    border-radius: 20px;
+    margin: 1rem 1rem;
+    padding: 0.2rem;
+    border: 2px solid var(--sec-color);
+}
+
+ul {
+    display: flex;
+    width: 77%;
+}
+
+li {
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: var(--sec-color);
+    font-size: large;
+}
+
+.search {
+    display: flex;
+    border-radius: 50px;
+    margin: 0.1rem;
+    border-radius: 18px;
+}
+
+#ser {
+    width: auto;
+    font-size: 1rem;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+    background-color: transparent;
+    padding: 0 2rem;
+    border: 3px solid var(--sec-color);
+    cursor: pointer;
+}
+
+.btn {
+    border: 2px solid var(--sec-color);
+    background-color: var(--sec-color);
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+    color: var(--btn);
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
